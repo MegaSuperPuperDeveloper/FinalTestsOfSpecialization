@@ -7,7 +7,7 @@ public class Main {
         Map<String, Integer> map = new HashMap<>();
         System.out.println("Количество слов в файле: " + Functions.countOfWords(map));
         System.out.println();
-        Functions.printFileData(map);;
+        Functions.printFileData(map);
         System.out.println();
         System.out.println("Cамое длинное слово: "  + Functions.longestWord(map));
     }
