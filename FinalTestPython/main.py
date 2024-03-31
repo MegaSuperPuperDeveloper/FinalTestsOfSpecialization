@@ -59,6 +59,8 @@ while True:
                 command = writeFile(fileName)
         else:
             print("Ошибка! Заметки с таким названием нет!")
+    elif command == "!stop":
+        break
     elif command == "help":
         print("add - создание новой заметки")
         print("read - получение содержимого заметки")
